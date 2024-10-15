@@ -1,0 +1,36 @@
+# Ignore application.properties in resources
+src/main/resources/application.properties
+
+# Ignore target directories and specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS configuration
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA configuration
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans configuration
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code configuration
+.vscode/
